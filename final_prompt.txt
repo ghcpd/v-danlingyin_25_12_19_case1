@@ -1,0 +1,4 @@
+prompt
+
+You are a senior front-end engineer.
+Your task is to create a complete web application from scratch for a fund / finance website.
