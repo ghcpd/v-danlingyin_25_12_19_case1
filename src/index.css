@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities for the app */
+:root{
+  --bg: #0f172a; /* not heavily used, keep professional */
+}
+
+body{
+  @apply bg-gray-50 text-slate-900 antialiased;
+}
+
+/* small helper for risk badges */
+.badge-low { @apply bg-green-100 text-green-800; }
+.badge-medium { @apply bg-yellow-100 text-yellow-800; }
+.badge-high { @apply bg-red-100 text-red-800; }
