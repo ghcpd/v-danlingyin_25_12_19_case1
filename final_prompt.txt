@@ -1,0 +1,72 @@
+prompt
+
+You are a senior front-end engineer.
+Your task is to create a complete web application from scratch for a fund / finance website.
+This is a UI CASE focused on:
+- Creating an application from 0 to 1
+- UI completeness and correctness
+- Engineering-level project setup
+Category:UI Case → Create App From Scratch
+--------------------------------------------------------------------------------
+1.Project setup requirements (MANDATORY)
+You must create a complete runnable project using:
+- React
+- TypeScript
+- Tailwind CSS
+- pnpm as the package manager
+You MUST provide:
+- package.json (configured for pnpm)
+- Tailwind configuration
+- TypeScript configuration
+- A valid React entry point (main.tsx / App.tsx)
+--------------------------------------------------------------------------------
+2.Application requirements (Fund / Finance website)
+Build a fund dashboard application that includes:
+2.1 Pages / Layout
+- A main dashboard page
+- A clear layout structure (header / content / section)
+2.2 Fund data presentation
+Each fund must display:
+- Fund name
+- Fund code
+- Risk level (Low / Medium / High)
+- Latest NAV (Net Asset Value)
+- Daily change percentage
+2.3 Visual rules
+- Positive change: green
+- Negative change: red
+- Risk level must be visually distinguishable
+- Professional finance-oriented UI style
+2.4 Interaction (at least ONE required)
+- Filter funds by risk level
+- Sort funds by return or NAV
+2.5 Empty state handling
+- When no fund data exists, show a clear and user-friendly empty state message
+--------------------------------------------------------------------------------
+3.Data rules
+- No backend is required
+- Mock data is allowed
+- Data must be typed with TypeScript interfaces
+--------------------------------------------------------------------------------
+4.Deliverables
+You must generate ALL of the following:
+- Full project source code
+- Folder structure
+- Configuration files
+- UI implementation files
+- Minimal instructions to run the app locally using pnpm
+--------------------------------------------------------------------------------
+5.Quality requirements
+- The application must render without runtime errors
+- TypeScript types must be correct
+- Tailwind utility classes must be used
+- Layout must not be broken on common screen sizes
+- Code must be readable and structured
+--------------------------------------------------------------------------------
+6.Rules (STRICT)
+- MUST create the application from scratch
+- MUST NOT assume any existing files unless you create them
+- MUST NOT skip configuration files
+- MUST NOT output only code snippets (full files required)
+- MUST NOT over-engineer or add unnecessary features
+- MUST keep output minimal, structured, and engineering-oriented
